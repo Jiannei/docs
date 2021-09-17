@@ -1,5 +1,6 @@
 node_modules
-.temp
+.vuepress/.temp
+.vuepress/.cache
 .cache
 .idea
 public/
