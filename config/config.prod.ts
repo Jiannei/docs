@@ -20,6 +20,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     },
     theme: "@vuepress/default",
     themeConfig: {
+        repo: 'https://github.com/Jiannei/docs',
         locales: {
             '/': {
                 // navbar
@@ -61,8 +62,9 @@ export default defineUserConfig<DefaultThemeOptions>({
                 toggleSidebar: '切换侧边栏',
             },
         },
-        repo: 'https://github.com/Jiannei/docs',
-        sidebar: 'auto',
+        themePlugins: {
+            git: true,
+        },
     },
     dest: "public",
 })
