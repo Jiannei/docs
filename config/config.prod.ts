@@ -1,9 +1,25 @@
 module.exports = {
     lang: 'zh-CN',
-    title: "Jianne's docs",
+    title: "Jiannei's docs",
     description: "Laravel & Lumen packages",
+    locales: {
+        '/': {
+            lang: 'zh-CN',
+        },
+        '/en/': {
+            lang: 'en-US',
+        },
+    },
     theme: "@vuepress/default",
     themeConfig: {
+        locales: {
+            '/': {
+                selectLanguageName: '简体中文',
+            },
+            '/en/': {
+                selectLanguageName: 'English',
+            },
+        },
         repo: 'https://github.com/Jiannei/docs',
         navbar: [
             {
