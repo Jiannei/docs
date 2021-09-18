@@ -3,8 +3,9 @@
     "vuepress": "^2.0.0-beta.26"
   },
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build",
+    "dev": "vuepress dev --config=config/config.js",
+    "build": "vuepress build --config=config/config.js",
+    "prod": "vuepress build --config=config/config.prod.js",
     "deploy": "cloudbase framework deploy"
   }
 }
