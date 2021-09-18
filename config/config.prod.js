@@ -4,6 +4,7 @@ module.exports = {
     description: "Laravel & Lumen packages",
     theme: "@vuepress/default",
     themeConfig: {
+        repo: 'https://github.com/Jiannei/docs',
         navbar: [
             {
                 text: 'Packages',
