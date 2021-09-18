@@ -66,5 +66,4 @@ export default defineUserConfig<DefaultThemeOptions>({
             git: true,
         },
     },
-    dest: "public",
 })
