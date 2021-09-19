@@ -1,4 +1,4 @@
-<h1 align="center"> laravel-response </h1>
+# laravel-response
 
 ![Test](https://github.com/Jiannei/laravel-response/workflows/Test/badge.svg)
 [![StyleCI](https://github.styleci.io/repos/316969462/shield?branch=main)](https://github.styleci.io/repos/316969462?branch=main)
