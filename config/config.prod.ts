@@ -9,12 +9,12 @@ export default defineUserConfig<DefaultThemeOptions>({
     locales: {
         '/': {
             lang: 'en-US',
-            title: "Jiannei's docs",
+            title: "Docs",
             description: 'Laravel & Lumen packages',
         },
         '/zh/': {
             lang: 'zh-CN',
-            title: "Jiannei's docs",
+            title: "文档库",
             description: 'Laravel & Lumen 扩展包',
         }
     },
